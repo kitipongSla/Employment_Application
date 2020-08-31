@@ -1,0 +1,2266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <title>Employment Application</title>
+
+    <!-- vendor css -->
+    <link href="lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- DashForge CSS -->
+    <link rel="stylesheet" href="assets/css/dashforge.css">
+    <link rel="stylesheet" href="assets/css/dashforge.profile.css">
+
+    <!--    <link href="lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">-->
+    <!--    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">-->
+    <link href="lib/typicons.font/typicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script href="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <!--    <link href="lib/prismjs/themes/prism-vs.css" rel="stylesheet">-->
+
+    <!-- DashForge CSS -->
+    <link rel="stylesheet" href="assets/css/dashforge.css">
+    <link rel="stylesheet" href="assets/css/dashforge.demo.css">
+
+
+    <script src="lib/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="lib/feather-icons/feather.min.js" type="text/javascript"></script>
+    <script src="lib/perfect-scrollbar/perfect-scrollbar.min.js" type="text/javascript"></script>
+    <script src="assets/js/dashforge.js" type="text/javascript"></script>
+
+    <!-- append theme customizer -->
+    <script src="lib/js-cookie/js.cookie.js" type="text/javascript"></script>
+    <script src="assets/js/dashforge.settings.js" type="text/javascript"></script>
+
+    <link href="lib/datatables.net-responsive-dt/css/responsive.dataTables.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="table-css.css">
+    <!---->
+</head>
+<body class="page-profile">
+
+<header class="navbar navbar-header navbar-header-fixed">
+    <!-- <a href="" id="mainMenuOpen" class="burger-menu"><i data-feather="menu"></i></a> -->
+    <div class="navbar-brand">
+        <a href="index.html" class="df-logo">Employment Application</a>
+    </div>
+</header><!-- navbar -->
+
+
+<div class="content content-fixed content-profile">
+    <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0">
+        <div class="media d-block d-lg-flex">
+            <!-- profile-sidebar -->
+            <div class="media-body mg-t-40 mg-lg-t-0 pd-lg-x-10">
+                <div class="mg-b-20 mg-lg-b-25">
+                    <div class="tx-13 mg-b-25">
+                        <div id="wizard2">
+                            <h3>ข้อมูลส่วนตัว<br><span style="font-size: 10px;">Personal Details</span></br></h3>
+                            <section><!-- form-group -->
+                                </br>
+                                <div class="df-example mg-b-20">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <label class="form-control-label">ตำแหน่งที่ต้องการสมัคร: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Position Applied</br></span></label>
+                                            <input id="firstname" class="form-control" name="firstname"
+                                                   placeholder="Enter Position Applied" type="text" required>
+                                            <br>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">เงินเดือนที่ต้องการ: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Expected Salary</br></span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Expected Salary"
+                                                   type="number" required>
+                                            <br>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">วันที่พร้อมจะเริ่มงานได้: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Date of Avalibity</br></span></label>
+                                            <input id="datepicker3" name="firstname" type="text" class="form-control"
+                                                   placeholder="DD/MM/YYYY" required>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div data-label="ข้อมูลส่วนตัว" class="df-example mg-b-20">
+                                    <div class="row">
+                                        <div class="col-sm-4 ">
+                                            <div class="col-sm row-sm">
+                                                <br>
+                                                <a>คำนำหน้าชื่อ <span class="tx-danger">*</span><br><span
+                                                        style="font-size: 10px;">Title</span></br></a>
+                                                </br>
+                                                <div class="row">
+                                                    <div class="col-sm-4 custom-control custom-radio">
+                                                        <input type="radio" id="RadioMr" name="RadioGroupName"
+                                                               class="custom-control-input">
+                                                        <label class="custom-control-label"
+                                                               for="RadioMr">นาย</label>
+                                                        <br>
+                                                        <span style="font-size: 10px;">Mr.</span>
+                                                    </div>
+                                                    <div class="col-sm-4 custom-control custom-radio">
+                                                        <input type="radio" id="RadioMrs" name="RadioGroupName"
+                                                               class="custom-control-input">
+                                                        <label class="custom-control-label"
+                                                               for="RadioMrs">นาง</label>
+                                                        <br>
+                                                        <span style="font-size: 10px;">Mrs.</span>
+                                                    </div>
+                                                    <div class="col-sm-4 custom-control custom-radio">
+                                                        <input type="radio" id="RadioMs" name="RadioGroupName"
+                                                               class="custom-control-input">
+                                                        <label class="custom-control-label"
+                                                               for="RadioMs">นางสาว</label>
+                                                        <br>
+                                                        <span style="font-size: 10px;">Ms.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </br>
+                                            <div class="col-sm row-sm">
+                                                <a>เพศ <span class="tx-danger">*</span><br><span
+                                                        style="font-size: 10px;">Sex</span></br></a>
+                                                </br>
+                                                <div class="row">
+                                                    <div class="col-sm-4 custom-control custom-radio">
+                                                        <input type="radio" id="RadioMale" name="RadioGroupSex"
+                                                               class="custom-control-input">
+                                                        <label class="custom-control-label"
+                                                               for="RadioMale">ชาย</label>
+                                                        <br>
+                                                        <span style="font-size: 10px;">Male</span>
+                                                    </div>
+                                                    <div class="col-sm-4 custom-control custom-radio">
+                                                        <input type="radio" id="RadioFemale" name="RadioGroupSex"
+                                                               class="custom-control-input">
+                                                        <label class="custom-control-label"
+                                                               for="RadioFemale">หญิง</label>
+                                                        <br>
+                                                        <span style="font-size: 10px;">Female</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">ชื่อภาษาไทย: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Name in Thai</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Name in Thai"
+                                                   type="text" required>
+                                            </br>
+                                            <label class="form-control-label">ชื่อภาษาอังกฤษ: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Name in English</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Name in English"
+                                                   type="text" required>
+                                        </div>
+                                        <br>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">นามสกุลภาษาไทย: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Surname in Thai</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Surname in Thai"
+                                                   type="text" required>
+                                            </br>
+                                            <label class="form-control-label">นามสกุลภาษาอังกฤษ: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Surname in English</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Surname in English"
+                                                   type="text" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3 ">
+                                            <label class="form-control-label">ชื่อเล่น: <span class="tx-danger">*</span><span
+                                                    style="font-size: 12px;"><br>Nickname</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Nickname"
+                                                   type="text" required>
+                                            <br>
+                                        </div>
+                                        <div class="col-sm ">
+                                            <label class="form-control-label">วันเกิด: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Date of Birth</br></span></label>
+<!--                                            <input class="form-control" name="firstname" placeholder="Enter Date of Birth"-->
+<!--                                                   type="text" required>-->
+                                            <input id="datepicker4" type="text" class="form-control"
+                                                   placeholder="DD/MM/YYYY" required>
+                                            <br>
+                                        </div>
+                                        <div class="col-sm ">
+                                            <label class="form-control-label">อายุ: <span
+                                                    class="tx-danger">*</span><span
+                                                    style="font-size: 12px;"><br>Age</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Age"
+                                                   type="number" required>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3 ">
+                                            <label class="form-control-label">น้ำหนัก: <span
+                                                    class="tx-danger">*</span><span
+                                                    style="font-size: 12px;"><br>Weight</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Weight"
+                                                   type="number" required>
+                                            <br>
+                                        </div>
+                                        <div class="col-sm ">
+                                            <label class="form-control-label">ส่วนสูง: <span
+                                                    class="tx-danger">*</span><span
+                                                    style="font-size: 12px;"><br>Height</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Height"
+                                                   type="number" required>
+                                            <br>
+                                        </div>
+                                        <div class="col-sm ">
+                                            <label class="form-control-label">หมู่เลือด: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Blood Group</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Blood Group"
+                                                   type="text" required>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3 ">
+                                            <label class="form-control-label">เชื้อชาติ: <span
+                                                    class="tx-danger">*</span><span
+                                                    style="font-size: 12px;"><br>Race</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Race"
+                                                   type="text" required>
+                                            <br>
+                                        </div>
+                                        <div class="col-sm ">
+                                            <label class="form-control-label">สัญชาติ: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Nationality</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Nationality"
+                                                   type="text" required>
+                                            <br>
+                                        </div>
+                                        <div class="col-sm ">
+                                            <label class="form-control-label">ศาสนา: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Religion</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Religion"
+                                                   type="text" required>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3 ">
+                                            <label class="form-control-label">เลขที่บัตรประชาชน: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>ID. Card No.</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter ID. Card No."
+                                                   type="text" required>
+                                            <br>
+                                        </div>
+                                        <div class="col-sm ">
+                                            <label class="form-control-label">วันหมดอายุ: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Expiry Date</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Expiry Date"
+                                                   type="text" required>
+                                            <br>
+                                        </div>
+                                        <div class="col-sm ">
+                                            <label class="form-control-label">สถานที่ออกบัตร: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Issued By</br></span></label>
+                                            <input class="form-control" name="firstname" placeholder="Enter Issued By"
+                                                   type="text" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3 ">
+                                            <label class="form-control-label">สถานภาพทางทหาร: <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Military Status</br></span></label>
+                                            <br>
+                                            <!-- <div class="row"> -->
+                                            <div class="col-sm custom-control custom-radio">
+                                                <input type="radio" id="RadioExempted" name="RadioGroupMilitaryS"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioExempted">ได้รับการยกเว้น</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Exempted</span>
+                                            </div>
+                                            <div class="col-sm custom-control custom-radio">
+                                                <input type="radio" id="RadioTDS" name="RadioGroupMilitaryS"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioTDS">เรียนรักษาดินแดน</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Territorial Degree Student</span>
+                                            </div>
+                                            <div class="col-sm custom-control custom-radio">
+                                                <input type="radio" id="RadioNonEx" name="RadioGroupMilitaryS"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioNonEx">ยังไม่ผ่านเกณฑ์ทหาร</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Non exempted</span>
+                                            </div>
+                                            <div class="col-sm custom-control custom-radio">
+                                                <input type="radio" id="RadioConscripted" name="RadioGroupMilitaryS"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioConscripted">ผ่านการเกณฑ์ทหาร</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Conscripted</span>
+                                            </div>
+                                            <div class="col-sm custom-control custom-radio">
+                                                <input type="radio" id="RadioOthers" name="RadioGroupMilitaryS"
+                                                       value="Y"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label" for="RadioOthers">อื่น ๆ</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Others</span>
+                                                <br>
+                                                <input type="text" placeholder="Enter firstname" class="form-control"
+                                                       style="display: none"
+                                                       name="txtToeicScore" id="txtToeicScore">
+                                            </div>
+                                            </br>
+                                        </div>
+                                        <div class="col-sm ">
+                                            <label class="form-control-label">รูปถ่าย: <span
+                                                    class="tx-danger">*</span><span
+                                                    style="font-size: 12px;"><br>Photo</br></span></label>
+                                            <div class="tower-file">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" id="filepicture">
+                                                    <label class="custom-file-label" for="filepicture">Choose
+                                                        file</label>
+                                                </div>
+                                            </div>
+                                            <span style="font-size: 10px;">Only PNG, JPG and JPEG are allowed and must be lessthan 3 MB</span>
+
+                                        </div>
+                                        <div class="col-sm">
+                                            <!--                                            <div class="avatar avatar-xxl img-thumbnail mg-b-0 wd-lg-50p ht-lg-100p"-->
+                                            <div class="avatar avatar-xxl img-thumbnail mg-b-0 wd-lg-50p ht-lg-250"
+                                                 alt="Responsive image">
+                                                <img class="rounded"
+                                                     src="https://via.placeholder.com/700"
+                                                     alt="" id="image-previewer"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </section><!-- form-group Menu 1 -->
+
+                            <h3>ข้อมูลสถานที่และครอบครัว<br><span
+                                    style="font-size: 10px;">Address and Family</span></br></h3>
+                            <section> <!-- form-group Menu 2 -->
+                                <div class="df-example mg-b-20">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <label class="form-control-label">ภูมิลำเนาเดิม : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Permanent Home Address</br></span></label>
+                                            <input id="firstname1" class="form-control" name="firstname"
+                                                   placeholder="Enter Permanent Home Address" type="text" required>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">ที่อยู่ปัจจุบัน : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Current Address</br></span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Current Address"
+                                                   type="text" required>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-sm row-sm">
+                                        <a>สถานภาพความเป็นอยู่ <span class="tx-danger">*</span><br><span
+                                                style="font-size: 10px;">Living Status</span></br></a>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-sm-3 custom-control custom-radio">
+                                                <input type="radio" id="RadioOwnHouse" name="RadioGroupLiving"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioOwnHouse">บ้านของตนเอง</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Single</span>
+                                            </div>
+                                            <div class="col-sm-3 custom-control custom-radio">
+                                                <input type="radio" id="RadioRentalHouse" name="RadioGroupLiving"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioRentalHouse">บ้านเช่า</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Rental House</span>
+                                            </div>
+                                            <div class="col-sm-3 custom-control custom-radio">
+                                                <input type="radio" id="RadioLiveWR" name="RadioGroupLiving"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioLiveWR">อาศัยญาติ</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Live with relatives</span>
+                                            </div>
+                                            <div class="col-sm-3 custom-control custom-radio">
+                                                <input type="radio" id="RadioLiveOthers" name="RadioGroupLiving"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioLiveOthers">อื่นๆ</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Others</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <label class="form-control-label">โทรศัพท์ : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Telephone No.</br></span></label>
+                                            <input class="form-control" name="firstname"
+                                                   placeholder="Enter Telephone No." type="text" required>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">โทรศัพท์มือถือ : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Mobile Phone No.</br></span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Mobile Phone No."
+                                                   type="text" required>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">อีเมล์ : <span
+                                                    class="tx-danger">*</span><span
+                                                    style="font-size: 12px;"><br>E-mail</br></span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Current Address"
+                                                   type="text" required>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">ไอดีไลน์ : <span
+                                                    class="tx-danger">*</span><span
+                                                    style="font-size: 12px;"><br>ID Line</br></span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter ID Line"
+                                                   type="text" required>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <label class="form-control-label">บุคคลที่ติดต่อกรณีฉุกเฉิน : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Person to contact in emergency</br></span></label>
+                                            <input class="form-control" name="firstname"
+                                                   placeholder="Enter Person to contact in emergency" type="text"
+                                                   required>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">ความสัมพันธ์ : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Related as</br></span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Related as"
+                                                   type="text" required>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">โทรศัพท์ : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Telephone No.</br></span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Telephone No."
+                                                   type="text" required>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <label class="form-control-label">สถานที่ติดต่อ : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Contact Address</br></span></label>
+                                            <input class="form-control" name="firstname"
+                                                   placeholder="Enter Contact Address" type="text" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="df-example mg-b-20">
+                                    <div class="col-sm row-sm">
+                                        <a>สถานภาพครอบครัว <span class="tx-danger">*</span><br><span
+                                                style="font-size: 10px;">Marital Status</span></br></a>
+                                        </br>
+                                        <div class="row">
+                                            <div class="col-sm-2 custom-control custom-radio">
+                                                <input type="radio" id="RadioSingle" name="RadioGroupMarital"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioSingle">โสด</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Single</span>
+                                            </div>
+                                            <div class="col-sm-2 custom-control custom-radio">
+                                                <input type="radio" id="RadioMarried" name="RadioGroupMarital"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioMarried">สมรส</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Married</span>
+                                            </div>
+                                            <div class="col-sm-2 custom-control custom-radio">
+                                                <input type="radio" id="RadioSeparated" name="RadioGroupMarital"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioSeparated">แยกกันอยู่</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Separated</span>
+                                            </div>
+                                            <div class="col-sm-2 custom-control custom-radio">
+                                                <input type="radio" id="RadioWidowed" name="RadioGroupMarital"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioWidowed">หม้าย</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Widowed</span>
+                                            </div>
+                                            <div class="col-sm-2 custom-control custom-radio">
+                                                <input type="radio" id="RadioDivorced" name="RadioGroupMarital"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioDivorced">หย่าร้าง</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Divorced</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <label class="form-control-label">ชื่อบิดา : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Father Name</br></span></label>
+                                            <input class="form-control" name="firstname"
+                                                   placeholder="Enter Father Name" type="text"
+                                                   required>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">อายุ : <span
+                                                    class="tx-danger">*</span><span
+                                                    style="font-size: 12px;"><br>Age</br></span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Age"
+                                                   type="text" required>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">อาชีพ : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Occupation</br></span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Occupation"
+                                                   type="text" required>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-sm row-sm">
+                                        <a>สถานภาพ <span class="tx-danger">*</span><br><span
+                                                style="font-size: 10px;">Marital Status</span></br></a>
+                                        </br>
+                                        <div class="row">
+                                            <div class="col-sm-3 custom-control custom-radio">
+                                                <input type="radio" id="RadioAliveF" name="customRadioMaritalF"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioAliveF">มีชีวิตอยู่</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Alive</span>
+                                            </div>
+                                            <div class="col-sm-3 custom-control custom-radio">
+                                                <input type="radio" id="RadioPassAwayF" name="customRadioMaritalF"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label" S
+                                                       for="RadioPassAwayF">ถึงแก่กรรม</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Pass away</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <label class="form-control-label">ชื่อมารดา : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Mother Name</br></span></label>
+                                            <input class="form-control" name="firstname"
+                                                   placeholder="Enter Mother Name" type="text"
+                                                   required>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">อายุ : <span
+                                                    class="tx-danger">*</span><span
+                                                    style="font-size: 12px;"><br>Age</br></span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Age"
+                                                   type="text" required>
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">อาชีพ : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Occupation</br></span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Occupation"
+                                                   type="text" required>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-sm row-sm">
+                                        <a>สถานภาพ <span class="tx-danger">*</span><br><span
+                                                style="font-size: 10px;">Marital Status</span></br></a>
+                                        </br>
+                                        <div class="row">
+                                            <div class="col-sm-3 custom-control custom-radio">
+                                                <input type="radio" id="RadioAlivezM" name="customRadioMaritalM"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioAlivezM">มีชีวิตอยู่</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Alive</span>
+                                            </div>
+                                            <div class="col-sm-3 custom-control custom-radio">
+                                                <input type="radio" id="RadioPassAwayM" name="customRadioMaritalM"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioPassAwayM">ถึงแก่กรรม</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Alive</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <label class="form-control-label">ชื่อคู่สมรส : <span
+                                                    style="font-size: 12px;"><br>Spouse Name</span></label>
+                                            <input class="form-control" name="firstname"
+                                                   placeholder="Enter Spouse Name" type="text"
+                                            >
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">อายุ : <span
+                                                    style="font-size: 12px;"><br>Age</span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Age"
+                                                   type="text">
+                                        </div>
+                                        <div class="col-sm">
+                                            <label class="form-control-label">อาชีพ : <span
+                                                    style="font-size: 12px;"><br>Occupation</span></label>
+                                            <input class="form-control" name="lastname"
+                                                   placeholder="Enter Occupation"
+                                                   type="text">
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-sm row-sm">
+                                        <a>สถานภาพ <span class="tx-danger">*</span><br><span
+                                                style="font-size: 10px;">Marital Status</span></a>
+                                        </br>
+                                        <div class="row">
+                                            <div class="col-sm-3 custom-control custom-radio">
+                                                <input type="radio" id="RadioAliveS" name="customRadioSpouse"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioAliveS">มีชีวิตอยู่</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Alive</span>
+                                            </div>
+                                            <div class="col-sm-3 custom-control custom-radio">
+                                                <input type="radio" id="RadioPasS" name="customRadioSpouse"
+                                                       class="custom-control-input">
+                                                <label class="custom-control-label"
+                                                       for="RadioPasS">ถึงแก่กรรม</label>
+                                                <br>
+                                                <span style="font-size: 10px;">Pass away</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <label class="form-control-label">จำนวนพี่น้อง (รวมตัวท่าน) : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>A number of Relatives (including yourself)</br></span></label>
+                                            <input class="form-control" name="firstname"
+                                                   placeholder="Enter A number of Relatives (including yourself)"
+                                                   type="number" required>
+                                        </div>
+                                    </div>
+                                    </br>
+                                </div>
+                            </section><!-- form-group Menu 2 -->
+                            <h3>ประวัติการศึกษาและฝึกงาน<br><span
+                                    style="font-size: 10px;">Education and Apprenticeship</span></br></h3>
+                            <section> <!-- form-group Menu 3 -->
+                                <div class=" df-example mg-b-20">
+                                    <div class="col-sm">
+                                        <div class="table-responsive">
+                                            <table id="example2" class=" table table-bordered mg-b-0">
+                                                <thead class="thead-dark">
+                                                <tr>
+                                                    <th>Educational&nbsp;Level</th>
+                                                    <th>Institute/Location</th>
+                                                    <th>Degree/Certificate</th>
+                                                    <th>Major</th>
+                                                    <th>From&nbsp;Date</th>
+                                                    <th>To&nbsp;Date</th>
+                                                    <th>G.P.A</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>Junior High School</td>
+                                                    <td><input class="form-control" type="text" id="row-1"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td>
+                                                        <select class="form-control">
+                                                            <option selected>select Language</option>
+                                                            <option value="1">Non</option>
+                                                            <option value="1">English</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><input class="form-control" type="text" id="row-3"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-4"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-5"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-6"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Senior High School</td>
+                                                    <td><input class="form-control" type="text" id="row-7"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td>
+                                                        <select class="form-control">
+                                                            <option selected>select Language</option>
+                                                            <option value="1">Non</option>
+                                                            <option value="1">English</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><input class="form-control" type="text" id="row-9"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-10"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-11"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-12"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Vocational</td>
+                                                    <td><input class="form-control" type="text" id="row-13ge"
+                                                               name="row-1-age" value=""></td>
+                                                    <td>
+                                                        <select class="form-control">
+                                                            <option selected>select Language</option>
+                                                            <option value="1">Non</option>
+                                                            <option value="1">English</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><input class="form-control" type="text" id="row-15"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-16"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-17"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-18"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Diploma</td>
+                                                    <td><input class="form-control" type="text" id="row-19"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td>
+                                                        <select class="form-control">
+                                                            <option selected>select Language</option>
+                                                            <option value="1">Non</option>
+                                                            <option value="1">English</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><input class="form-control" type="text" id="row-21"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-22"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-23"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-24"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bachelor</td>
+                                                    <td><input class="form-control" type="text" id="row-25"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td>
+                                                        <select class="form-control">
+                                                            <option selected>select Language</option>
+                                                            <option value="1">Non</option>
+                                                            <option value="1">English</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><input class="form-control" type="text" id="row-27"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-28"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-29"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-30"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Master</td>
+                                                    <td><input class="form-control" type="text" id="row-31"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td>
+                                                        <select class="form-control">
+                                                            <option selected>select Language</option>
+                                                            <option value="1">Non</option>
+                                                            <option value="1">English</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><input class="form-control" type="text" id="row-33"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-34"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-35"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-36"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Other<br><span style="font-size: 11px">Other</span></td>
+                                                    <td><input class="form-control" type="text" id="row-37"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td>
+                                                        <select class="form-control">
+                                                            <option selected>select Language</option>
+                                                            <option value="1">Non</option>
+                                                            <option value="1">English</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </td>
+                                                    <td><input class="form-control" type="text" id="row-39"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-40"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-41"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                    <td><input class="form-control" type="text" id="row-42"
+                                                               name="row-1-age"
+                                                               value=""></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+
+                                    <br>
+                                    <div class="col-sm">
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <label class="form-control-label">ปัจจุบันกำลังศึกษาอยู่ในระดับ : <span
+                                                        style="font-size: 12px;"><br>Current Level of Study<br></span></label>
+                                                <input class="form-control" name="firstname"
+                                                       placeholder="Enter Current Level of Study" type="text"
+                                                       required="">
+                                            </div>
+                                            <div class="col-sm">
+                                                <br>
+                                                <label class="form-control-label">ชื่อสถาบันการศึกษา : <span
+                                                        class="tx-danger">*</span><span style="font-size: 12px;"><br>Institute<br></span></label>
+                                                <input class="form-control" name="firstname"
+                                                       placeholder="Enter Institute" type="text"
+                                                       required="">
+                                            </div>
+                                            <div class="col-sm">
+                                                <br>
+                                                <label class="form-control-label">สาขา : <span
+                                                        class="tx-danger">*</span><span style="font-size: 12px;"><br>Major<br></span></label>
+                                                <input class="form-control" name="firstname"
+                                                       placeholder="Enter Major" type="text"
+                                                       required="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div data-label="ประวัติการฝึกอบรม/ดูงาน/ฝึกงาน" class="df-example mg-b-20">
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="table-responsive">
+                                                <div id="example_wrapper1" class="dataTables_wrapper no-footer">
+                                                    <table id="example1"
+                                                           class="table table-bordered mg-b-0 dataTable no-footer"
+                                                           role="grid">
+                                                        <thead class="thead-dark">
+                                                        <tr>
+                                                            <th class="wd-30p">Course</th>
+                                                            <th class="wd-30p">Institute</th>
+                                                            <th class="wd-20p">Degree/Certificate</th>
+                                                            <th class="wd-20p">Period</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <th><input class="form-control" type="text" id="row-50"
+                                                                       name="row-1-age" value=""></th>
+                                                            <td><input class="form-control" type="text" id="row-51"
+                                                                       name="row-1-age" value=""></td>
+                                                            <td><input class="form-control" type="text" id="row-52"
+                                                                       name="row-1-age" value=""></td>
+                                                            <td><input class="form-control" type="text" id="row-53"
+                                                                       name="row-1-age" value=""></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th><input class="form-control" type="text" id="row-54"
+                                                                       name="row-1-age" value=""></th>
+                                                            <td><input class="form-control" type="text" id="row-55"
+                                                                       name="row-1-age" value=""></td>
+                                                            <td><input class="form-control" type="text" id="row-56"
+                                                                       name="row-1-age" value=""></td>
+                                                            <td><input class="form-control" type="text" id="row-57"
+                                                                       name="row-1-age" value=""></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th><input class="form-control" type="text" id="row-58"
+                                                                       name="row-1-age" value=""></th>
+                                                            <td><input class="form-control" type="text" id="row-59"
+                                                                       name="row-1-age" value=""></td>
+                                                            <td><input class="form-control" type="text" id="row-60"
+                                                                       name="row-1-age" value=""></td>
+                                                            <td><input class="form-control" type="text" id="row-61"
+                                                                       name="row-1-age" value=""></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+                            <h3>ความสามารถและประสบการณ์<br><span style="font-size: 10px;">Special Skills and Work Experience</span></br>
+                            </h3>
+                            <section> <!-- form-group Menu 4 -->
+                                <div class=" df-example mg-b-20">
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <label class="form-control-label">พิมพ์ดีดภาษาไทย : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Typewriting in Thai<br></span></label>
+                                            <input class="form-control" name="firstname"
+                                                   placeholder="Enter Typewriting in Thai Words/min" type="text"
+                                                   required="">
+                                        </div>
+                                        <div class="col-sm">
+                                            <br>
+                                            <label class="form-control-label">พิมพ์ดีดภาษาอังกฤษ : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Typewriting in English<br></span></label>
+                                            <input class="form-control" name="firstname"
+                                                   placeholder="Enter Typewriting in English Words/min" type="text"
+                                                   required="">
+                                        </div>
+                                        <div class="col-sm">
+                                            <br>
+                                            <label class="form-control-label">ความสามารถทางคอมพิวเตอร์/อื่นๆ : <span
+                                                    class="tx-danger">*</span><span style="font-size: 12px;"><br>Computer, IT Skills/Others<br></span></label>
+                                            <input class="form-control" name="firstname"
+                                                   placeholder="Enter Computer, IT Skills/Others" type="text"
+                                                   required="">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <br>
+                                            <label class="form-control-label">ยานพหนะส่วนตัว : <span
+                                                    style="font-size: 12px;"><br>Own Vehicle<br></span></label>
+                                            <div class="row">
+                                                <div style=" margin-left: 15px;"
+                                                     class="col-sm custom-control custom-radio">
+                                                    <input type="radio" id="RadioMotorcycle_01"
+                                                           name="customRadioOwnVehicle"
+                                                           class="custom-control-input">
+                                                    <label class="custom-control-label"
+                                                           for="RadioMotorcycle_01">รถจักรยานยนต์</label>
+                                                    <br>
+                                                    <span style="font-size: 10px;">Motorcycle</span>
+                                                </div>
+                                                <div style=" margin-left: 15px;"
+                                                     class="col-sm custom-control custom-radio">
+                                                    <input type="radio" id="RadioCar_01" name="customRadioOwnVehicle"
+                                                           class="custom-control-input">
+                                                    <label class="custom-control-label" s=""
+                                                           for="RadioCar_01">รถยนต์</label>
+                                                    <br>
+                                                    <span style="font-size: 10px;">Car</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm">
+                                            <br>
+                                            <label class="form-control-label">ความสามารถในการขับขี่ : <span
+                                                    style="font-size: 12px;"><br>Driving Skills<br></span></label>
+                                            <div class="row">
+                                                <div style=" margin-left: 15px;"
+                                                     class="col-sm custom-control custom-radio">
+                                                    <input type="radio" id="Motorcycle_02"
+                                                           name="customRadioDrivingSkills"
+                                                           class="custom-control-input">
+                                                    <label class="custom-control-label"
+                                                           for="Motorcycle_02">รถจักรยานยนต์</label>
+                                                    <br>
+                                                    <span style="font-size: 10px;">Motorcycle</span>
+                                                </div>
+                                                <div style=" margin-left: 15px;"
+                                                     class="col-sm custom-control custom-radio">
+                                                    <input type="radio" id="Car_02" name="customRadioDrivingSkills"
+                                                           class="custom-control-input">
+                                                    <label class="custom-control-label"
+                                                           for="Car_02">รถยนต์</label>
+                                                    <br>
+                                                    <span style="font-size: 10px;">Car</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm">
+                                            <br>
+                                            <label class="form-control-label">ใบอนุญาตขับขี่ : <span
+                                                    style="font-size: 12px;"><br>Driving License<br></span></label>
+                                            <div class="row">
+                                                <div style=" margin-left: 15px;"
+                                                     class="col-sm custom-control custom-radio">
+                                                    <input type="radio" id="Motorcycle_03"
+                                                           name="customRadioDrivingLicense_01"
+                                                           class="custom-control-input" value="temporary">
+                                                    <label class="custom-control-label"
+                                                           for="Motorcycle_03">รถจักรยานยนต์</label>
+                                                    <br>
+                                                    <span style="font-size: 10px;">Motorcycle</span>
+                                                </div>
+                                                <div style=" margin-left: 15px;"
+                                                     class="col-sm custom-control custom-radio">
+                                                    <input type="radio" id="Car_03" name="customRadioDrivingLicense_02"
+                                                           class="custom-control-input" value="temporary">
+                                                    <label class="custom-control-label"
+                                                           for="Car_03">รถยนต์</label>
+                                                    <br>
+                                                    <span style="font-size: 10px;">Car</span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm custom-control" style="display: none"
+                                                     id="numMotorcycle">
+                                                    <div class="form-group row">
+                                                        <input type="text" placeholder="Enter Motorcycle"
+                                                               class="form-control" name="numEmployeePeriod">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm custom-control" style="display: none" id="numCar">
+                                                    <div class="form-group row">
+                                                        <input type="text" placeholder="Enter Car" class="form-control"
+                                                               name="numEmployeePeriod">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <br>
+                                            <div class="table-responsive">
+                                                <div class="dataTables_wrapper no-footer">
+                                                    <table id="example14"
+                                                           class="table table-bordered mg-b-0 dataTable no-footer"
+                                                           role="grid">
+                                                        <thead class="thead-dark">
+                                                        <tr>
+                                                            <th rowspan="2">Language</th>
+                                                            <th colspan="3">Speaking</th>
+                                                            <th colspan="3">Reading</th>
+                                                            <th colspan="3">Writing</th>
+                                                            <th colspan="3">Understanding</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Good</th>
+                                                            <th>Fair</th>
+                                                            <th>Poor</th>
+                                                            <th>Good</th>
+                                                            <th>Fair</th>
+                                                            <th>Poor</th>
+                                                            <th>Good</th>
+                                                            <th>Fair</th>
+                                                            <th>Poor</th>
+                                                            <th>Good</th>
+                                                            <th>Fair</th>
+                                                            <th>Poor</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <th>
+                                                                <select class="custom-select">
+                                                                    <option selected> select Language</option>
+                                                                    <option value="1">Non</option>
+                                                                    <option value="1">English</option>
+                                                                    <option value="2">Two</option>
+                                                                    <option value="3">Three</option>
+                                                                </select>
+                                                            </th>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioGoodSpeaking_1"
+                                                                           name="customRadioSpeaking_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodSpeaking_1"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioFairSpeaking_1"
+                                                                           name="customRadioSpeaking_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairSpeaking_1"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioPoorSpeaking_1"
+                                                                           name="customRadioSpeaking_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorSpeaking_1"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioGoodReading_1"
+                                                                           name="customRadioReading_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodReading_1"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioFairReading_1"
+                                                                           name="customRadioReading_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairReading_1"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioPoorReading_1"
+                                                                           name="customRadioReading_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorReading_1"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioGoodWriting_1"
+                                                                           name="customRadioWriting_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodWriting_1"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioFairWriting_1"
+                                                                           name="customRadioWriting_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairWriting_1"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioPoorWriting_1"
+                                                                           name="customRadioWriting_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorWriting_1"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio"
+                                                                           id="RadioGoodUnderstanding_1"
+                                                                           name="customRadioUnderstanding_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodUnderstanding_1"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio"
+                                                                           id="RadioFairUnderstanding_1"
+                                                                           name="customRadioUnderstanding_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairUnderstanding_1"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio"
+                                                                           id="RadioPoorUnderstanding_1"
+                                                                           name="customRadioUnderstanding_1"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorUnderstanding_1"></label>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>
+                                                                <select class="custom-select">
+                                                                    <option selected> select Language</option>
+                                                                    <option value="1">Non</option>
+                                                                    <option value="1">English</option>
+                                                                    <option value="2">Two</option>
+                                                                    <option value="3">Three</option>
+                                                                </select>
+                                                            </th>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioGoodSpeaking_2"
+                                                                           name="customRadioSpeaking_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodSpeaking_2"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioFairSpeaking_2"
+                                                                           name="customRadioSpeaking_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairSpeaking_2"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioPoorSpeaking_2"
+                                                                           name="customRadioSpeaking_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorSpeaking_2"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioGoodReading_2"
+                                                                           name="customRadioReading_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodReading_2"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioFairReading_2"
+                                                                           name="customRadioReading_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairReading_2"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioPoorReading_2"
+                                                                           name="customRadioReading_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorReading_2"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioGoodWriting_2"
+                                                                           name="customRadioWriting_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodWriting_2"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioFairWriting_2"
+                                                                           name="customRadioWriting_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairWriting_2"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioPoorWriting_2"
+                                                                           name="customRadioWriting_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorWriting_2"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio"
+                                                                           id="RadioGoodUnderstanding_2"
+                                                                           name="customRadioUnderstanding_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodUnderstanding_2"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio"
+                                                                           id="RadioFairUnderstanding_2"
+                                                                           name="customRadioUnderstanding_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairUnderstanding_2"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio"
+                                                                           id="RadioPoorUnderstanding_2"
+                                                                           name="customRadioUnderstanding_2"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorUnderstanding_2"></label>
+                                                                </div>
+                                                            </td>
+
+                                                        </tr>
+                                                        <tr>
+                                                            <th>
+                                                                <select class="custom-select">
+                                                                    <option selected> select Language</option>
+                                                                    <option value="1">Non</option>
+                                                                    <option value="1">English</option>
+                                                                    <option value="2">Two</option>
+                                                                    <option value="3">Three</option>
+                                                                </select>
+                                                            </th>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioGoodSpeaking_3"
+                                                                           name="customRadioSpeaking_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodSpeaking_3"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioFairSpeaking_3"
+                                                                           name="customRadioSpeaking_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairSpeaking_3"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioPoorSpeaking_3"
+                                                                           name="customRadioSpeaking_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorSpeaking_3"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioGoodReading_3"
+                                                                           name="customRadioReading_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodReading_3"></label>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioFairReading_3"
+                                                                           name="customRadioReading_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairReading_3"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioPoorReading_3"
+                                                                           name="customRadioReading_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorReading_3"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioGoodWriting_3"
+                                                                           name="customRadioWriting_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodWriting_3"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioFairWriting_3"
+                                                                           name="customRadioWriting_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairWriting_3"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio" id="RadioPoorWriting_3"
+                                                                           name="customRadioWriting_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorWriting_3"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio"
+                                                                           id="RadioGoodUnderstanding_3"
+                                                                           name="customRadioUnderstanding_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioGoodUnderstanding_3"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio"
+                                                                           id="RadioFairUnderstanding_3"
+                                                                           name="customRadioUnderstanding_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioFairUnderstanding_3"></label>
+                                                                </div>
+
+                                                            </td>
+                                                            <td>
+                                                                <div class="custom-control custom-radio">
+                                                                    <input type="radio"
+                                                                           id="RadioPoorUnderstanding_3"
+                                                                           name="customRadioUnderstanding_3"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="RadioPoorUnderstanding_3"></label>
+                                                                </div>
+                                                            </td>
+
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <br>
+                                <div data-label="ประสบการณ์ทำงาน (เรียงลำดับจากปัจจุบัน)" class="df-example mg-b-20">
+                                    <br>
+                                    <div class=" mg-b-20">
+                                        <div id="accordion2" class="accordion">
+                                            <h6 class="accordion-title">Company 1</h6>
+                                            <div class="accordion-body">
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ชื่อบริษัท : <span
+                                                                style="font-size: 12px;"><br>Company’s Name<br></span></label>
+                                                        <input class="form-control" name="firstname"
+                                                               placeholder="Enter Company’s Name" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <br>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ประเภทธุรกิจ : <span
+                                                                style="font-size: 12px;"><br>Type of Bussiness<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Type of Bussiness" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <br>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">โทรศัพท์ : <span
+                                                                style="font-size: 12px;"><br>Telephone No.<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Telephone No." type="text"
+                                                               required="">
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div>
+                                                    <label class="form-control-label">ที่อยู่ : <span
+                                                            style="font-size: 12px;"><br>Address<br></span></label>
+                                                    <input class="form-control" name="lastname"
+                                                           placeholder="Enter Address" type="text" required="">
+                                                </div>
+                                                <br>
+                                                <div>
+                                                    <label class="form-control-label">ลักษณะงานที่รับผิดชอบโดยย่อ :
+                                                        <span style="font-size: 12px;"><br>Brief Responsibility<br></span></label>
+                                                    <input class="form-control" name="lastname"
+                                                           placeholder="Enter Brief Responsibility" type="text"
+                                                           required="">
+                                                </div>
+                                                <br>
+                                                <!--                                        <div data-label="Example" class="df-example demo-forms">-->
+                                                <div class="row">
+
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">วันเริ่มงาน : <span
+                                                                style="font-size: 12px;"><br>Date Employed<br></span></label>
+                                                        <label style="text-align:right;"
+                                                               class="col-sm-5 form-control-label">ถึง :<span
+                                                                style="font-size: 12px;"><br>To<br></span></label>
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-sm">
+                                                                <input type="text" id="dateFrom" class="form-control"
+                                                                       placeholder="From">
+                                                            </div><!-- col -->
+                                                            <div class="col-sm">
+                                                                <input type="text" id="dateTo" class="form-control"
+                                                                       placeholder="To">
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div><!-- col -->
+                                                    <br>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ตำแหน่งแรกเข้า : <span
+                                                                style="font-size: 12px;"><br>First Position<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter First Position" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <br>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ตำแหน่งสุดท้าย : <span
+                                                                style="font-size: 12px;"><br>Last Position<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Last Position" type="text"
+                                                               required="">
+                                                    </div>
+                                                </div><!-- row -->
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">เงินเดือนแรกเข้า : <span
+                                                                style="font-size: 12px;"><br>Starting Salary<br></span></label>
+                                                        <input class="form-control" name="firstname"
+                                                               placeholder="Enter Starting Salary" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <br>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">เงินเดือนสุดท้าย : <span
+                                                                style="font-size: 12px;"><br>Last Salary<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Last Salary" type="text" required="">
+                                                    </div>
+                                                    <br>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">รายได้อื่นๆ : <span
+                                                                style="font-size: 12px;"><br>Other Benefits<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Other Benefits" type="text"
+                                                               required="">
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div>
+                                                    <label class="form-control-label">เหตุผลที่ออกจากงาน : <span
+                                                            style="font-size: 12px;"><br>Reason for Leaving<br></span></label>
+                                                    <input class="form-control" name="lastname"
+                                                           placeholder="Enter Reason for Leaving" type="text"
+                                                           required="">
+                                                </div>
+
+                                            </div>
+                                            <h6 class="accordion-title">Company 2</h6>
+                                            <div class="accordion-body">
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ชื่อบริษัท : <span
+                                                                style="font-size: 12px;"><br>Company’s Name<br></span></label>
+                                                        <input class="form-control" name="firstname"
+                                                               placeholder="Enter Company’s Name" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ประเภทธุรกิจ : <span
+                                                                style="font-size: 12px;"><br>Type of Bussiness<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Type of Bussiness" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">โทรศัพท์ : <span
+                                                                style="font-size: 12px;"><br>Telephone No.<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Telephone No." type="text"
+                                                               required="">
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div>
+                                                    <label class="form-control-label">ที่อยู่ : <span
+                                                            style="font-size: 12px;"><br>Address<br></span></label>
+                                                    <input class="form-control" name="lastname"
+                                                           placeholder="Enter Address" type="text" required="">
+                                                </div>
+                                                <br>
+                                                <div>
+                                                    <label class="form-control-label">ลักษณะงานที่รับผิดชอบโดยย่อ :
+                                                        <span style="font-size: 12px;"><br>Brief Responsibility<br></span></label>
+                                                    <input class="form-control" name="lastname"
+                                                           placeholder="Enter Brief Responsibility" type="text"
+                                                           required="">
+                                                </div>
+                                                <br>
+                                                <!--                                        <div data-label="Example" class="df-example demo-forms">-->
+                                                <div class="row">
+
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">วันเริ่มงาน : <span
+                                                                style="font-size: 12px;"><br>Date Employed<br></span></label>
+                                                        <label style="text-align:right;"
+                                                               class="col-sm-5 form-control-label">ถึง :<span
+                                                                style="font-size: 12px;"><br>To<br></span></label>
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-sm">
+                                                                <input type="text" id="dateFrom2" class="form-control"
+                                                                       placeholder="From">
+                                                            </div><!-- col -->
+                                                            <div class="col-sm">
+                                                                <input type="text" id="dateTo2" class="form-control"
+                                                                       placeholder="To">
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div><!-- col -->
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ตำแหน่งแรกเข้า : <span
+                                                                style="font-size: 12px;"><br>First Position<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter First Position" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ตำแหน่งสุดท้าย : <span
+                                                                style="font-size: 12px;"><br>Last Position<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Last Position" type="text"
+                                                               required="">
+                                                    </div>
+                                                </div><!-- row -->
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">เงินเดือนแรกเข้า : <span
+                                                                style="font-size: 12px;"><br>Starting Salary<br></span></label>
+                                                        <input class="form-control" name="firstname"
+                                                               placeholder="Enter Starting Salary" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">เงินเดือนสุดท้าย : <span
+                                                                style="font-size: 12px;"><br>Last Salary<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Last Salary" type="text" required="">
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">รายได้อื่นๆ : <span
+                                                                style="font-size: 12px;"><br>Other Benefits<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Other Benefits" type="text"
+                                                               required="">
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div>
+                                                    <label class="form-control-label">เหตุผลที่ออกจากงาน : <span
+                                                            style="font-size: 12px;"><br>Reason for Leaving<br></span></label>
+                                                    <input class="form-control" name="lastname"
+                                                           placeholder="Enter Reason for Leaving" type="text"
+                                                           required="">
+                                                </div>
+                                            </div>
+                                            <h6 class="accordion-title">Company 3</h6>
+                                            <div class="accordion-body">
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ชื่อบริษัท : <span
+                                                                style="font-size: 12px;"><br>Company’s Name<br></span></label>
+                                                        <input class="form-control" name="firstname"
+                                                               placeholder="Enter Company’s Name" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ประเภทธุรกิจ : <span
+                                                                style="font-size: 12px;"><br>Type of Bussiness<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Type of Bussiness" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">โทรศัพท์ : <span
+                                                                style="font-size: 12px;"><br>Telephone No.<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Telephone No." type="text"
+                                                               required="">
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div>
+                                                    <label class="form-control-label">ที่อยู่ : <span
+                                                            style="font-size: 12px;"><br>Address<br></span></label>
+                                                    <input class="form-control" name="lastname"
+                                                           placeholder="Enter Address" type="text" required="">
+                                                </div>
+                                                <br>
+                                                <div>
+                                                    <label class="form-control-label">ลักษณะงานที่รับผิดชอบโดยย่อ :
+                                                        <span style="font-size: 12px;"><br>Brief Responsibility<br></span></label>
+                                                    <input class="form-control" name="lastname"
+                                                           placeholder="Enter Brief Responsibility" type="text"
+                                                           required="">
+                                                </div>
+                                                <br>
+                                                <!--                                        <div data-label="Example" class="df-example demo-forms">-->
+                                                <div class="row">
+
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">วันเริ่มงาน : <span
+                                                                style="font-size: 12px;"><br>Date Employed<br></span></label>
+                                                        <label style="text-align:right;"
+                                                               class="col-sm-5 form-control-label">ถึง
+                                                            :<span
+                                                                    style="font-size: 12px;"><br>To<br></span></label>
+                                                        <br>
+                                                        <div class="row">
+                                                            <div class="col-sm">
+                                                                <input type="text" id="dateFrom3" class="form-control"
+                                                                       placeholder="From">
+                                                            </div><!-- col -->
+                                                            <div class="col-sm">
+                                                                <input type="text" id="dateTo3" class="form-control"
+                                                                       placeholder="To">
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div><!-- col -->
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ตำแหน่งแรกเข้า : <span
+                                                                style="font-size: 12px;"><br>First Position<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter First Position" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ตำแหน่งสุดท้าย : <span
+                                                                style="font-size: 12px;"><br>Last Position<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Last Position" type="text"
+                                                               required="">
+                                                    </div>
+                                                </div><!-- row -->
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">เงินเดือนแรกเข้า : <span
+                                                                style="font-size: 12px;"><br>Starting Salary<br></span></label>
+                                                        <input class="form-control" name="firstname"
+                                                               placeholder="Enter Starting Salary" type="text"
+                                                               required="">
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">เงินเดือนสุดท้าย : <span
+                                                                style="font-size: 12px;"><br>Last Salary<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Last Salary" type="text" required="">
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">รายได้อื่นๆ : <span
+                                                                style="font-size: 12px;"><br>Other Benefits<br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Other Benefits" type="text"
+                                                               required="">
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div>
+                                                    <label class="form-control-label">เหตุผลที่ออกจากงาน : <span
+                                                            style="font-size: 12px;"><br>Reason for Leaving<br></span></label>
+                                                    <input class="form-control" name="lastname"
+                                                           placeholder="Enter Reason for Leaving" type="text"
+                                                           required="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- az-accordion -->
+                                </div>
+
+                            </section>
+                            <h3>ข้อมูลบุคคลอ้างอิงและอื่นๆ<br><span
+                                    style="font-size: 10px;">References and Others</span></br>
+                            </h3>
+                            <section> <!-- form-group Menu 5 -->
+                                <br>
+                                <div data-label="ข้อมูลบุคคลที่สามารถอ้างอิง" class="df-example mg-b-20">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="col-sm row-sm">
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ชื่อ-นามสกุล : <span
+                                                                style="font-size: 12px;"><br>Name-Surname</br></span></label>
+                                                        <input id="firstname20" class="form-control" name="firstname"
+                                                               placeholder="Enter Name-Surname" type="text"
+                                                        >
+                                                        <br>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">ความสัมพันธ์ : <span
+                                                                style="font-size: 12px;"><br>Related as</br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Related as"
+                                                               type="text">
+                                                        <br>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">โทรศัพท์ : <span
+                                                                style="font-size: 12px;"><br>Telephone No.</br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Telephone No."
+                                                               type="number">
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm-4">
+                                                        <label class="form-control-label">ตำแหน่ง : <span
+                                                                style="font-size: 12px;"><br>Position</br></span></label>
+                                                        <input id="firstname21" class="form-control" name="firstname"
+                                                               placeholder="Enter Position" type="text"
+                                                        >
+                                                        <br>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <label class="form-control-label">สถานที่ทำงาน : <span
+                                                                style="font-size: 12px;"><br>Workplace</br></span></label>
+                                                        <input class="form-control" name="lastname"
+                                                               placeholder="Enter Workplace Location"
+                                                               type="text">
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-label="ข้อมูลอื่นๆ" class="df-example mg-b-20">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="col-sm row-sm">
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <a style="font-size: 13px;">ท่านมีความบกพร่องของร่างกายหรือเป็นโรคเรื้อรังที่เป็นอุปสรรคต่อการทำงานหรือไม่
+                                                            ?</a>
+                                                        <span style="font-size: 12px;"><br>Do you have any physical handicaps, chronic diseases or other disabilities ?</br></span>
+                                                        <br>
+                                                        <div class="col-sm">
+                                                            <div class="row">
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioNoMenu01_01"
+                                                                           name="customRadioMenu_01"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioNoMenu01_01">ไม่มี</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">No</span>
+                                                                </div>
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioYesMenu01_02"
+                                                                           name="customRadioMenu_01"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioYesMenu01_02">มี</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">Yes</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <a style="font-size: 13px;">ท่านเคยเจ็บป่วย
+                                                            หรือได้รับอุบัติเหตุจนต้องเข้ารับการรักษาในโรงพยาบาลหรือไม่
+                                                            ?</a>
+                                                        <span style="font-size: 12px;"><br>Have you ever been hospitalize because of serious illness or accident ?</br></span>
+                                                        <br>
+                                                        <div class="col-sm">
+                                                            <div class="row">
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioNoMenu02_01"
+                                                                           name="customRadioMenu_02"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioNoMenu02_01">ไม่มี</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">No</span>
+                                                                </div>
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioYesMenu03_01"
+                                                                           name="customRadioMenu_02"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioYesMenu03_01">มี</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">Yes</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <a style="font-size: 13px;">สุขภาพโดยทั่วไปของท่าน ?</a>
+                                                        <span style="font-size: 12px;"><br>General condition of your health ?</br></span>
+                                                        <br>
+                                                        <div class="col-sm">
+                                                            <div class="row">
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioExcellentMenu"
+                                                                           name="customRadiohealth"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioExcellentMenu">ดีเลิศ</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">Excellent</span>
+                                                                </div>
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioGoodMenu"
+                                                                           name="customRadiohealth"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioGoodMenu">ดี</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">Good</span>
+                                                                </div>
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioFairMenu"
+                                                                           name="customRadiohealth"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioFairMenu">พอใช้</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">Fair</span>
+                                                                </div>
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioPoorMenu"
+                                                                           name="customRadiohealth"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioPoorMenu">ไม่ดี</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">Poor</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <a style="font-size: 13px;">ท่านเคยถูกศาลพิพากษาให้เป็นบุคคลล้มละลายหรือเคยทำผิดทางอาญาหรือไม่
+                                                            ?</a>
+                                                        <span style="font-size: 12px;"><br>Have you ever been any legal action taken against you ?</br></span>
+                                                        <br>
+                                                        <div class="col-sm">
+                                                            <div class="row">
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioNoMenu04_01"
+                                                                           name="customRadiolegal"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioNoMenu04_01">ไม่เคย</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">No</span>
+                                                                </div>
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioYesMenu04_01"
+                                                                           name="customRadiolegal"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioYesMenu04_01">เคย</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">Yes</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <a style="font-size: 13px;">ท่านเคยถูกให้ออกจากงานด้วยกรณีใดๆ
+                                                            หรือไม่ ?</a>
+                                                        <span style="font-size: 12px;"><br>Have you ever been terminated for any reason ?</br></span>
+                                                        <br>
+                                                        <div class="col-sm">
+                                                            <div class="row">
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioNoMenu05_01"
+                                                                           name="customRadioTerminated"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioNoMenu05_01">ไม่เคย</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">No</span>
+                                                                </div>
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioYesMenu05_01"
+                                                                           name="customRadioTerminated"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioYesMenu05_01">เคย</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">Yes</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <a style="font-size: 13px;">ท่านมีเพื่อนหรือญาติที่ทำงานบริษัทนี้หรือไม่
+                                                            ?</a>
+                                                        <span style="font-size: 12px;"><br>Have you any friends or relatives employed here ?</br></span>
+                                                        <br>
+                                                        <div class="col-sm">
+                                                            <div class="row">
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioNoMenu07_01"
+                                                                           name="customRadiorelatives"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioNoMenu07_01">ไม่มี</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">No</span>
+                                                                </div>
+                                                                <div class="col-sm custom-control custom-radio">
+                                                                    <input type="radio" id="customRadioYesMenu07_01"
+                                                                           name="customRadiorelatives"
+                                                                           class="custom-control-input">
+                                                                    <label class="custom-control-label"
+                                                                           for="customRadioYesMenu07_01">มี</label>
+                                                                    <br>
+                                                                    <span style="font-size: 10px;">Yes</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <a style="font-size: 13px;">บันทึกเพิ่มเติมซึ่งท่านคิดว่าจะเป็นประโยชน์ต่อการสมัครงาน</a>
+                                                        <span style="font-size: 12px;"><br>Additional information which you considered to be beneficial to application ?</br></span>
+                                                        <br>
+                                                        <input id="firstname23" class="form-control" name="firstname"
+                                                               placeholder="Enter Additional information" type="text"
+                                                               required>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <a style="font-size: 13px;">ข้าพเจ้าขอรับรองข้อความข้างต้นและหลักฐานต่างๆ
+                                                            ถูกต้องและเป็นความจริงทุกประการ
+                                                            ข้าพเจ้ายินดีให้บริษัทตรวจสอบประวัติเกี่ยวกับตัวข้าพเจ้าได้
+                                                            และหากข้าพเจ้าได้รับการพิจารณาเข้าทำงาน
+                                                            และบริษัทตรวจสอบว่าข้อความที่ให้ไว้ไม่ตรงกับความเป็นจริง
+                                                            ข้าพเจ้ายินดีให้บริษัทยกเลิกสัญญาจ้างของข้าพเจ้าทันที
+                                                            โดยข้าพเจ้าจะไม่เรียกร้องค่าสินไหมทดแทน หรือเงิดชดเชยใดๆ
+                                                            ทั้งสิ้นจากบริษัท</a>
+                                                        <span style="font-size: 12px;"><br>I certify that my answers or evidences are true. I understand that any incorrect, incomplete, or false statement of information furnished by me will considered as jus just cause for rejection of this application or dismissal from employment without any competition of severance pay whatsover.</br></span>
+                                                        <br>
+                                                        <div class="row col-sm-4">
+                                                            <div class="col-sm custom-control custom-radio">
+                                                                <input type="radio" id="customRadioDisagree"
+                                                                       name="customRadioEvidences"
+                                                                       class="custom-control-input">
+                                                                <label class="custom-control-label"
+                                                                       for="customRadioDisagree">ไม่ยอมรับ</label>
+                                                                <br>
+                                                                <span style="font-size: 10px;">Disagree</span>
+                                                            </div>
+                                                            <div class="col-sm custom-control custom-radio">
+                                                                <input type="radio" id="customRadioAgree"
+                                                                       name="customRadioEvidences"
+                                                                       class="custom-control-input">
+                                                                <label class="custom-control-label"
+                                                                       for="customRadioAgree">ยอมรับ</label>
+                                                                <br>
+                                                                <span style="font-size: 10px;">Agree</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div><!-- df-example -->
+                </div><!-- card -->
+
+
+            </div><!-- media-body -->
+            <!-- profile-sidebar -->
+        </div><!-- media -->
+    </div><!-- container -->
+</div><!-- content -->
+
+
+<footer class="footer">
+    <div style="text-align: center;">
+        <span>Copyright © 2019 v1.0.0. </span>
+        <span>All Rights Reserved. <a href="https://geniussoft.co.th">geniussoft.co.th</a></span>
+    </div>
+    <!--    <div>-->
+    <!--        <nav class="nav">-->
+    <!--            <a href="https://themeforest.net/licenses/standard" class="nav-link">Licenses</a>-->
+    <!--            <a href="../../change-log.html" class="nav-link">Change Log</a>-->
+    <!--            <a href="https://discordapp.com/invite/RYqkVuw" class="nav-link">Get Help</a>-->
+    <!--        </nav>-->
+    <!--    </div>-->
+</footer>
+
+
+<script src="lib/prismjs/prism.js"></script>
+<script src="lib/parsleyjs/parsley.min.js"></script>
+<script src="lib/jquery-steps/build/jquery.steps.min.js"></script>
+
+<script src="script.js"></script>
+<script src="imoViewer-min.js"></script>
+<script src="lib/jqueryui/jquery-ui.min.js"></script>
+
+<script src="lib/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="lib/datatables.net-dt/js/dataTables.dataTables.min.js"></script>
+<script src="lib/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="lib/datatables.net-responsive-dt/js/responsive.dataTables.min.js"></script>
+
+<script src="bstable.js"></script>
+
+</body>
+</html>
+
